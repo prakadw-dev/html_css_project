@@ -12,12 +12,12 @@ h1 {
   margin: 15px 20px;
 }
 
-ul {
+.about-me-body {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
 }
-ul .social-link {
+.social-link {
   display: inline-block;
 }
 img {
@@ -29,8 +29,9 @@ li {
   padding: 10px;
 }
 
-li .social-detail {
-  display: inline-block;
+.social-detail {
+  display: list-item;
+  padding: 20px;
 }
 a {
   text-decoration: none;
