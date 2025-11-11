@@ -94,6 +94,12 @@ footer {
 
   .about-me-body {
     display: flex;
-    justify-content: column;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .resume-button,
+  .socials-button,
+  .projects-button {
+    margin: 5px;
   }
 }
