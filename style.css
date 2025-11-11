@@ -86,3 +86,14 @@ footer {
   font-weight: 200;
   margin: 15px;
 }
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+
+  .about-me-body {
+    display: flex;
+    justify-content: column;
+  }
+}
