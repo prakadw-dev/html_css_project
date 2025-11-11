@@ -1,7 +1,10 @@
 body {
-  font-family: "Delius Swash Caps", cursive;
-  font-weight: 400;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
   font-style: normal;
+  font-variation-settings: "wdth" 100;
+  padding: 20px;
 }
 
 h1 {
@@ -14,6 +17,9 @@ ul {
   flex-flow: row;
   justify-content: space-around;
 }
+ul .social-link {
+  display: inline-block;
+}
 img {
   padding: 0;
 }
@@ -23,6 +29,15 @@ li {
   padding: 10px;
 }
 
+li .social-detail {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
