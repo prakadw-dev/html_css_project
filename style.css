@@ -14,9 +14,13 @@ ul {
   flex-flow: row;
   justify-content: space-around;
 }
+img {
+  padding: 0;
+}
 
 li {
   list-style: none;
+  padding: 10px;
 }
 
 footer {
