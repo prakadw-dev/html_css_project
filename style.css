@@ -1,0 +1,18 @@
+h1 {
+  text-align: left;
+  margin: 15px 20px;
+}
+
+ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+}
