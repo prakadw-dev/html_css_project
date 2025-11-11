@@ -49,6 +49,16 @@ a {
   text-decoration: none;
   font-weight: 300;
 }
+button {
+  font-family: "Sour Gummy", sans-serif;
+  padding: 7px;
+}
+button:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
 
 footer {
   display: flex;
