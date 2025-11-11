@@ -5,11 +5,28 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   padding: 20px;
+  background-color: #dedbd2;
+}
+header {
+  background-color: #b0c4b1;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: left;
   margin: 15px 20px;
+}
+.main-heading {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+
+.main-heading:hover {
+  cursor: pointer;
+  color: #4a5759;
+  text-decoration: underline;
 }
 
 .about-me-body {
@@ -41,4 +58,5 @@ a {
 footer {
   display: flex;
   justify-content: center;
+  font-weight: 200;
 }
